@@ -2,12 +2,8 @@
 
 int main()
 {
-    int a, b, c;
-    a = 8;
-    b = 10;
-    c = 5;
-    printf("%d\n", a + ++b);
-    printf("%d",b);
+    int i = 5;
+    printf("%d",i=10);
     return 0 ;
     // int a, b, c, d;
     // a = b = c = d = 5;
