@@ -3,7 +3,9 @@
 int main()
 {
     int i = 5;
-    printf("%d",i=10);
+    float x = 5.3;
+    float result = i + x;
+    printf("%f",result);
     return 0 ;
     // int a, b, c, d;
     // a = b = c = d = 5;
