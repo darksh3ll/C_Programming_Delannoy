@@ -1,8 +1,8 @@
 #include <stdio.h>
-
 int main()
 {
     int i = 5;
+    unsigned int a = 10;
     float x = 5.3;
     float result = i + x;
     printf("%f",result);
