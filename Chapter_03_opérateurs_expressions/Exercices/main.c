@@ -18,16 +18,25 @@ int main()
     printf("%ld\n", c);
 
     // exercices (d)
-    int d = n < p ; // => int
+    int d = n < p; // => int
     printf("%d\n", d);
 
-    //exercices(e)
+    // exercices(e)
     int e = n >= p;
-    printf("%d\n",e); // => int
+    printf("%d\n", e); // => int
     return 0;
 
-    //exercices(f)
+    // exercices(f)
     long f = n > q;
-    printf("%ld\n",f); // => long
+    printf("%ld\n", f); // => long
+
+    // exercices(g)
+    int g = q + 3 * (n > p); // => long
+
+    // exercices(h)
+    int h = q && n; // => long
+
+    // exercices(g)
+    int g = (q-2) && (n-10); // => long
     return 0;
 }
