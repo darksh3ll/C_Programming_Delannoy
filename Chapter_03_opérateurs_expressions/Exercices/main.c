@@ -7,15 +7,27 @@ int main()
 
     // exercices (a)
     long a = n + q; // => long
-    printf("%ld\n",a);
+    printf("%ld\n", a);
 
     // exercices (b)
     float b = n + x; // => float
-    printf("%f\n",b);
+    printf("%f\n", b);
 
-    //exercices (c)
-    int c = n % p + q ; // 
-    printf("%d",c);
+    // exercices (c)
+    int c = n % p + q; // => long
+    printf("%ld\n", c);
 
+    // exercices (d)
+    int d = n < p ; // => int
+    printf("%d\n", d);
 
+    //exercices(e)
+    int e = n >= p;
+    printf("%d\n",e); // => int
+    return 0;
+
+    //exercices(f)
+    long f = n > q;
+    printf("%ld\n",f); // => long
+    return 0;
 }
