@@ -28,15 +28,21 @@ int main()
 
     // exercices(f)
     long f = n > q;
-    printf("%ld\n", f); // => long
+    printf("%ld\n", f); // => long (1)
 
     // exercices(g)
-    int g = q + 3 * (n > p); // => long
+    int g = q + 3 * (n > p); // => 5 * 1 long (5)
 
     // exercices(h)
-    int h = q && n; // => long
+    int h = q && n; // => long (0)
 
-    // exercices(g)
-    int g = (q-2) && (n-10); // => long
+    // exercices(i)
+    int g = (q - 2) && (n - 10); // => long => 0 && 0 (0)
+
+    // exercices(j)
+    int j = x * (q == 2); // => float =>  x*1 => 17,75 * 1 = (1.75)
+
+    // exercices(k)
+    int k = x * (q = 5); // float * 0 (1,75)
     return 0;
 }
