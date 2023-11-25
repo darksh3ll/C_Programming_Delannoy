@@ -5,9 +5,9 @@
 // 1 si n est positif.
 int main()
 {
+
     int n = -10;
     int r = (n ? (n > 0 ? 1 : -1) : 0);
     printf("%d\n", r);
-    printf("%d",1 && 1 );
-    return 0;
+ 
 }
