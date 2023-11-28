@@ -1,13 +1,6 @@
 #include <stdio.h>
 int main()
 {
-<<<<<<< HEAD
-    char c1 = 10;
-    printf("%d",c1+1);
-
-
-}
-=======
     int i = 5;
     unsigned int a = 10;
     float x = 5.3;
@@ -22,4 +15,3 @@ int main()
     // printf("la variable i vaut %d \n",i);
     // printf("%d", k);
 }
->>>>>>> 4316c6e06ca40e954f8026b0f71555bb2543881e
