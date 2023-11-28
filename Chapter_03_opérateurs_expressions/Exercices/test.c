@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h> // Nécessaire pour la fonction abs()
 
+
 int main()
 {
-    int c = 1;
-    int counter = 0;
+    int array[5] = {1, 2, 3, 4, 5};
 }
