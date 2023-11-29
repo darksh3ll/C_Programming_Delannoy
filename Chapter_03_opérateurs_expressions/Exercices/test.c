@@ -1,9 +1,9 @@
+#include <unistd.h>
+#include <sys/syscall.h>
 #include <stdio.h>
-#include <stdlib.h> // Nécessaire pour la fonction abs()
 
-
-int main()
-{
-    int c = 12;
-    putchar(c);
+int main() {
+    const char* message = "Hello, world!\n";
+    syscall(SYS_write, STDOUT_FILENO, message, 13);
+    return 0;
 }
