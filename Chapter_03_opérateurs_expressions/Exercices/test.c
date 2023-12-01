@@ -2,11 +2,14 @@
 #include <sys/syscall.h>
 #include <stdio.h>
 
-int main() {
-    int a, b;
-    printf("Entrez deux nombres: ");
-    scanf("%d", &a);
-    scanf("%d", &b);
-    printf("Vous avez entré %d et %d\n", a, b);
+int count(int arr[]){
+    int count = sizeof(arr)/sizeof(arr[0]);
+    return count;
+
+};
+int main()
+{
+    int array[] = {1, 2, 3, 4, 2, 5, 2, 10};
+    int y = count(array);
     return 0;
 }
