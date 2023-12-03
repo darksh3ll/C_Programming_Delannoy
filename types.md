@@ -1,0 +1,26 @@
+| Type de Données         | Taille (octets) | Valeur Min                  | Valeur Max                  | Code de Conversion pour printf |
+|-------------------------|-----------------|-----------------------------|-----------------------------|--------------------------------|
+| char                    | 1               | -128                        | 127                         | %c (caractère), %d (nombre)    |
+| unsigned char           | 1               | 0                           | 255                         | %c (caractère), %u (nombre)    |
+| int                     | 4               | -2147483648                 | 2147483647                  | %d                             |
+| unsigned int            | 4               | 0                           | 4294967295                  | %u                             |
+| short                   | 2               | -32768                      | 32767                       | %hd                            |
+| unsigned short          | 2               | 0                           | 65535                       | %hu                            |
+| long                    | 4 ou 8          | -2^31 à -2^63               | 2^31-1 à 2^63-1             | %ld                            |
+| unsigned long           | 4 ou 8          | 0                           | 2^32-1 à 2^64-1             | %lu                            |
+| long long               | 8               | -2^63                       | 2^63-1                      | %lld                           |
+| unsigned long long      | 8               | 0                           | 2^64-1                      | %llu                           |
+| float                   | 4               | 1.2E-38                     | 3.4E+38                     | %f                             |
+| double                  | 8               | 2.3E-308                    | 1.7E+308                    | %lf                            |
+| long double             | 12 ou 16        | 3.4E-4932                   | 1.1E+4932                   | %Lf                            |
+| size_t                  | Varie           | 0                           | Dépend du système           | %zu (C99)                      |
+| ptrdiff_t               | Varie           | Dépend du système           | Dépend du système           | %td (C99)                      |
+| _Bool                   | 1               | 0 (faux)                    | 1 (vrai)                    | %d                             |
+| int8_t                  | 1               | -128                        | 127                         | %d                             |
+| uint8_t                 | 1               | 0                           | 255                         | %u                             |
+| int16_t                 | 2               | -32768                      | 32767                       | %d                             |
+| uint16_t                | 2               | 0                           | 65535                       | %u                             |
+| int32_t                 | 4               | -2147483648                 | 2147483647                  | %d                             |
+| uint32_t                | 4               | 0                           | 4294967295                  | %u                             |
+| int64_t                 | 8               | -9223372036854775808        | 9223372036854775807         | %lld (ou %ld sur certains systèmes) |
+| uint64_t                | 8               | 0                           | 18446744073709551615        | %llu (ou %lu sur certains systèmes) |
