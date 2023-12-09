@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int n;
-    printf("Entre une valeur :");
-    scanf("%d",&n);
-    printf("Voici la racine carré de %d %d \n",n,n*n);
+    int a,b,c,d;
+    scanf("%d, %d, %d, %d", &a, &b, &c, &d);
+    printf("%d,%d,%d,%d\n",a,b,c,d);
 
 }
