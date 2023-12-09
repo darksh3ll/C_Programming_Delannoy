@@ -1,8 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    int a,b,c,d;
-    scanf("%d, %d, %d, %d", &a, &b, &c, &d);
-    printf("%d,%d,%d,%d\n",a,b,c,d);
+    int space = 5;
+    int a = 40;
+    float b = 1.20;
+    printf ("%3.*d\n", space, a) ;
 
+    printf("%3d\n",a);
+    printf("%10d\n",a);
+    printf("%f\n",b); //1,200000
+    printf("%.2f",b); // 1,20
 }
