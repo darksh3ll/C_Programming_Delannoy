@@ -1,3 +1,21 @@
+// 1) Soit les déclarations suivantes :
+//   int n = 10 , p = 4 ;
+//   long q = 2 ;
+//   float x = 1.75 ;
+// Donner le type et la valeur de chacune des expressions suivantes :
+// a) n+ q
+// b) n+ x
+// c) n% p +q
+// d) n< p
+// e) n >= p
+// f) n> q
+// g) q + 3 * (n > p)
+// h) q && n
+// i) (q-2) && (n-10)
+// j) x * (q==2)
+// k) x *(q=5)
+
+
 #include <stdio.h>
 int main()
 {
