@@ -16,9 +16,14 @@ Instructions :
 
 int main()
 {
-    float a = 1.2345;
-    float b = 123.456;
-    printf("%.2f\n",b);
-    printf("%.2f",a);
-    return 0;
+    int c = 0;
+    for (int i = 0; i < 10; i++)
+    {
+        printf("%*.d\n", c++, i);
+    };
+
+    for (int j = c; j > 0; j--)
+    {
+        printf("%*.d\n", c--, j);
+    }
 }
