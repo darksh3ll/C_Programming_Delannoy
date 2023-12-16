@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main() {
-    int a;
-    char c;
-    printf("Entrez deux nombres séparés par un espace : ");
-    scanf("%d %c", &a, &c);
-    printf("Les nombres entrés sont : %d et %c\n", a, c);
-    return 0;
+int main()
+{
+ int n,p;
+ char c;
+ printf("Entre 2 nombres : ");
+ scanf("%d%c",&n,&c);
+ printf("%d %c",n,c);
 }
