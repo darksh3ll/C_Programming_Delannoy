@@ -1,7 +1,4 @@
 #include <stdio.h>
-
-
-
 int main()
 {
     char a;
@@ -9,5 +6,4 @@ int main()
     scanf("%c",&a);
     printf("vous avez taper le chiffre %c\n",a);
     return 0;
-
 }
