@@ -17,13 +17,14 @@ Instructions :
 int main()
 {
     int c = 0;
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i <- 10; i++)
     {
-        printf("%*.d\n", c++, i);
+        printf("%*.c\n", ++c, '*');
     };
 
-    for (int j = c; j > 0; j--)
+    for (int j = c; j >- 0; j--)
     {
-        printf("%*.d\n", c--, j);
+        printf("%*.c\n", --c, '*');
     }
+
 }
