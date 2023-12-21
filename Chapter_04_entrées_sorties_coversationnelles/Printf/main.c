@@ -16,5 +16,6 @@ int main(){
     // printf("%f\n",c);
     // printf("%.*f\n",precision,c);
     // printf("%*d",space,a);
+    
 
 }
