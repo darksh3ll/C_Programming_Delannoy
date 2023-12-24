@@ -1,24 +1,26 @@
 #include <stdio.h>
 
+
 int main()
 {
     int i = 1;
     float moy = 0;
-    float n;
+    float input;
     do
     {
         printf("note %d :", i);
-        scanf("%f", &n);
+        scanf("%f", &input);
 
-        if (n < 0)
+        if (input < 0)
         {
             i--;
             break;
         }
-        moy += n;
+    
+        moy += input;
         i++;
 
-    } while (n);
+    } while (input);
 
     printf("moyenne de c'est %d notes : %.2f", i, moy / i);
     return 0;
