@@ -2,14 +2,14 @@
 
 int main()
 {
-    int i, n, sum;
+    int i, input, sum;
     sum = 0;
     i = 1;
     while (i <= 4)
     {
         printf("donnez un entier:  ");
-        scanf("%d", &n);
-        sum += n;
+        scanf("%d", &input);
+        sum += input;
         i++;
     }
     printf("Somme = %d",sum);
