@@ -1,13 +1,32 @@
+/*
+ * Title: Your Program Title
+ * Author: darksh3ll <darksh3ll.js@gmail.com>
+ * Created on: 2023-12
+ * Description: Brief description of what the program does.
+
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ */
+
 #include <stdio.h>
 
+// Function Declarations
+void exampleFunction();
 
-int main() {
-    float fexple(float, int, int); // Assurez-vous que la définition correspond quelque part dans votre code.
-    float x = 1.5;
-    float y;
-    int n = 3, p = 5;
-    y = fexple(x, n, p);
-    // Utilisez y ou faites quelque chose ici pour éviter les variables inutilisées.
-    printf("Result: %f\n", y);
+// Main program
+int main()
+{
+    // Variable Initialization
+    int i, x;
+    
+
     return 0;
+}
+// Function Definitions
+void exampleFunction()
+{
+    printf("hello");
 }
