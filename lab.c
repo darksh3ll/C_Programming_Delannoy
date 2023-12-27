@@ -2,8 +2,8 @@
  * Title: Your Program Title
  * Author: darksh3ll <darksh3ll.js@gmail.com>
  * Created on: 2023-12
- * Description: Programme qui verifie si un nombre est premier
- *
+ * Description: Brief description of what the program does.
+
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
@@ -12,7 +12,6 @@
  */
 
 #include <stdio.h>
-#include <math.h>
 
 // Function Declarations
 void exampleFunction();
@@ -21,28 +20,20 @@ void exampleFunction();
 int main()
 {
     // Variable Initialization
-    int i = 2;
-    int input;
-    int input_racine_carre;
+    int a = 73;
     int temp = 1;
 
-    printf("Entrez un nombres: ");
-    scanf("%d", &input);
-    input_racine_carre = sqrt(input);
-    printf("iteration de la boucle %d\n", input_racine_carre);
-
-    for (i; i <= input_racine_carre; i++)
+    for (int i = 2; i <= 7; i++)
     {
-
-        if ((input % i) == 0)
+        if (a % i == 0)
         {
             temp = i;
-            break;
         }
     }
+
     if (temp == 1)
     {
-        printf("Le nombre %d est  premier", input);
+        printf("est  premier");
     }
 
     return 0;
@@ -50,6 +41,5 @@ int main()
 // Function Definitions
 void exampleFunction()
 {
-    printf("hello");
+    // Function code
 }
-
