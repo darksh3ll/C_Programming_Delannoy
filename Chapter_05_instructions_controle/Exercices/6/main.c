@@ -23,14 +23,6 @@ int main()
     int i, x;
     
 
-<<<<<<< HEAD
-=======
-int main() {
-    int input;
-    printf("Entrez un nombre positif: ");
-    scanf("%d",&input);
-    printf("%d",input);
->>>>>>> f2635d981ceb540688a3511e71ff5b30c501d06e
     return 0;
 }
 // Function Definitions
