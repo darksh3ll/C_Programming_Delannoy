@@ -14,9 +14,6 @@
 #include <stdio.h>
 #include <math.h>
 
-// Function Declarations
-void exampleFunction();
-
 // Main program
 int main()
 {
@@ -24,32 +21,25 @@ int main()
     int i = 2;
     int input;
     int input_racine_carre;
-    int temp = 1;
+    int isPrime = 1;
 
     printf("Entrez un nombres: ");
     scanf("%d", &input);
     input_racine_carre = sqrt(input);
-    printf("iteration de la boucle %d\n", input_racine_carre);
 
     for (i; i <= input_racine_carre; i++)
     {
 
         if ((input % i) == 0)
         {
-            temp = i;
+            isPrime = i;
             break;
         }
     }
-    if (temp == 1)
+    if (isPrime == 1)
     {
         printf("Le nombre %d est  premier", input);
     }
 
     return 0;
 }
-// Function Definitions
-void exampleFunction()
-{
-
-}
-
